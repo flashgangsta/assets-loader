@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assets Loader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <template id="template01">
+        <div style="max-width: 100%">
+            <img src="/assets/images/image01.jpg"/>
+        </div>
+    </template>
+    <h1>Assets Loader</h1>
+
+    <label for="progressbar">Assets loading progress</label>
+
+
+    <div id="progressbar-wrapper">
+        <div id="progressbar-loading-text"></div>
+        <progress id="progressbar" max="100" value="0">0%</progress>
+        <div id="progressbar-text">0%</div>
+    </div>
+
+    <button id="buttonStartLoad" disabled>Start load</button>
+    <button id="buttonStopLoad" disabled>Stop load</button>
+    <button id="buttonPauseLoad" disabled>Pause load</button>
+    <button id="buttonResumeLoad" disabled>Resume load</button>
+
+<script src="App.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "random": "79",
+  "random float": "75.524",
+  "bool": "false",
+  "date": "1990-04-18",
+  "regEx": "helloooooooooooooooooooooooooooooo world",
+  "enum": "json",
+  "firstname": "Etta",
+  "lastname": "Nicoline",
+  "city": "Castries",
+  "country": "Lao People\"S Democratic Republic",
+  "countryCode": "JO",
+  "email uses current data": "Etta.Nicoline@gmail.com",
+  "email from expression": "Etta.Nicoline@yopmail.com",
+  "array": [
+    "Christy",
+    "Myriam",
+    "Roz",
+    "Celene",
+    "Aurore"
+  ],
+  "array of objects": [
+    {
+      "index": "0",
+      "index start at 5": "5"
+    },
+    {
+      "index": "1",
+      "index start at 5": "6"
+    },
+    {
+      "index": "2",
+      "index start at 5": "7"
+    }
+  ],
+  "Jaime": {
+    "age": "77"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "data": [
+    {
+      "name": "categories",
+      "list": [
+        "img",
+        "audio",
+        "video",
+        "json",
+        "txt"
+      ]
+    },
+    {
+      "name": "extensions",
+      "list": [
+        "jpg",
+        "png",
+        "gif",
+        "jpeg",
+        "jpe",
+        "bmp",
+        "ico",
+        "webp",
+        "odd",
+        "svg",
+        "mp3",
+        "wav",
+        "aac",
+        "flac",
+        "mp4",
+        "webm",
+        "json",
+        "txt"
+      ]
+    },
+    {
+      "name": "directories",
+      "list": [
+        "/assets"
+      ]
+    },
+    {
+      "name": "subdirectories",
+      "list": [
+        "/data",
+        "/images",
+        "/media"
+      ]
+    },
+    {
+      "name": "assets",
+      "list": [
+        "/assets/images/image01.jpg",
+        "/assets/images/image02.png",
+        "/assets/images/image03.gif",
+        "/assets/images/image04.jpeg",
+        "/assets/images/image05.jpe",
+        "/assets/images/image06.bmp",
+        "/assets/images/image07.ico",
+        "/assets/images/image08.webp",
+        "/assets/images/image09.odd",
+        "/assets/images/image10.svg",
+        "/assets/media/sound01.mp3",
+        "/assets/media/sound02.wav",
+        "/assets/media/sound03.aac",
+        "/assets/media/sound04.flac",
+        "/assets/media/video01.mp4",
+        "/assets/media/video02.webm",
+        "/assets/media/video02.webm",
+        "/assets/data/json01.json",
+        "/assets/data/json02.json",
+        "/assets/data/json03.json",
+        "/assets/data/txt01.txt",
+        "/assets/data/txt02.txt"
+      ]
+    },
+    {
+      "name": "images",
+      "list": [
+        "image01.jpg",
+        "image02.png",
+        "image03.gif",
+        "image04.jpeg",
+        "image05.jpe",
+        "image06.bmp",
+        "image07.ico",
+        "image08.webp",
+        "image09.odd",
+        "image10.svg"
+      ]
+    },
+    {
+      "name": "audios",
+      "list": [
+        "sound01.mp3",
+        "sound02.wav",
+        "sound03.aac",
+        "sound04.flac"
+      ]
+    },
+    {
+      "name": "videos",
+      "list": [
+        "video01.mp4",
+        "video02.webm"
+      ]
+    },
+    {
+      "name": "datas",
+      "list": [
+        "json01.json",
+        "txt01.txt"
+      ]
+    },
+    {
+      "name": "buttons",
+      "list": [
+        "Start load",
+        "Stop load",
+        "Pause load",
+        "Resume load"
+      ]
+    },
+    {
+      "name": "methods",
+      "list": [
+        "startLoad",
+        "pauseLoad",
+        "stopLoad",
+        "getAssetByURL",
+        "getLoadedAssets"
+      ]
+    },
+    {
+      "name": "getters",
+      "list": [
+        "progress",
+        "loadedCount",
+        "total"
+      ]
+    },
+    {
+      "name": "events",
+      "list": [
+        "ASSETS_LOAD_STARTED",
+        "ASSET_LOADED",
+        "ALL_ASSETS_LOADED",
+        "ASSET_LOAD_PROGRESS",
+        "ASSET_LOAD_STOPPED",
+        "ASSET_LOAD_STARTED",
+        "ASSET_LOAD_PAUSED",
+        "ASSET_LOAD_RESUMED"
+      ]
+    }
+  ]
+}
