@@ -16,7 +16,7 @@ export class App {
 	#eventHandlers;
 
 	constructor() {
-		const assetsLoader = this.#assetsLoader = window.loader = new AssetsLoader();
+		const assetsLoader = this.#assetsLoader = new AssetsLoader();
 		this.#progressbar = document.querySelector("#progressbar");
 		this.#progressbarText = document.querySelector("#progressbar-text");
 		this.#progressbarLoadingText = document.querySelector("#progressbar-loading-text");
